@@ -1,0 +1,8 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v0.16.0-3-gded4cec
+_src_path: https://github.com/mbercx/python-copier
+coverage: codecov
+doc_deploy: github
+docs: mkdocs
+package_name: worstenbrood
+type_check: strict

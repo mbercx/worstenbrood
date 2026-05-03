@@ -1,0 +1,40 @@
+base_outputs:
+  code_version: 10.4.0
+  fermi_energy: 12.42986
+  forces:
+  - - 0.0
+    - 0.0
+    - 0.0
+  job_done: true
+  magnetization_per_site:
+  - 2.22
+  n_scf_steps: 12.0
+  stress:
+  - - -1.02974
+    - 0.0
+    - 0.0
+  - - 0.0
+    - -1.02974
+    - 0.0
+  - - 0.0
+    - 0.0
+    - -1.02974
+  structure:
+    cell:
+    - - -1.43407
+      - 1.43407
+      - 1.43407
+    - - 1.43407
+      - -1.43407
+      - 1.43407
+    - - 1.43407
+      - 1.43407
+      - -1.43407
+    positions:
+    - - 0.0
+      - 0.0
+      - 0.0
+    symbols:
+    - Fe
+  total_energy: -689.69099
+  total_magnetization: 2.22

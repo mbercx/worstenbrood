@@ -22,6 +22,7 @@ classifiers = [
 ]
 dependencies = [
     "dough[pint]>=0.4,<0.5",
+    "netCDF4>=1.6",
 ]
 [project.optional-dependencies]
 docs = [
@@ -100,4 +101,8 @@ strict = true
 
 [[tool.mypy.overrides]]
 module = ["glom"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["netCDF4"]
 ignore_missing_imports = true

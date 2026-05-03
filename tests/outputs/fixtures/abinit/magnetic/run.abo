@@ -1,0 +1,30 @@
+.Version 10.4.0 of ABINIT
+.(MPI version, prepared for a x86_64_darwin_gnu13.2 computer)
+
+.Copyright (C) 1998-2024 ABINIT group .
+
+------------- Echo of variables that govern the present computation ------------
+
+ outvars: echo of selected default values
+-   iomode0 =  0 , fftalg0 =312 , wfoptalg0 =  0
+            nsppol           2
+            nspden           2
+
+================================================================================
+== DATASET  1 ==================================================================
+
+ ITER STEP NUMBER     1
+ ETOT  1  -2.5012345678901E+01 -2.501E+01  3.2E-03  1.8E-02
+
+--- Removed: 10 SCF iterations ---
+
+ ITER STEP NUMBER    12
+ ETOT 12  -2.5345678901234E+01 -7.890E-09  1.5E-11  3.2E-09
+
+ At SCF step   12       vres2   =  3.21E-09 < tolvrs=  1.00E-08 =>converged.
+
+================================================================================
+
+ Calculation completed.
+.Delivered    0 WARNINGs and   0 COMMENTs to log file.
++Overall time at end (sec) :     cpu=          5.4  wall=          5.6

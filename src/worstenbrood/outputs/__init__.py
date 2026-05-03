@@ -1,5 +1,5 @@
 """Public output classes."""
 
-from worstenbrood.outputs.demo import DemoOutput
+from worstenbrood.outputs.abinit import AbinitOutput
 
-__all__ = ["DemoOutput"]
+__all__ = ["AbinitOutput"]

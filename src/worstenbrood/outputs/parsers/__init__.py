@@ -1,3 +1,4 @@
-from worstenbrood.outputs.parsers.json_parser import JSONParser
+from worstenbrood.outputs.parsers.abinit_stdout import AbinitStdoutParser
+from worstenbrood.outputs.parsers.gsr import GsrParser
 
-__all__ = ["JSONParser"]
+__all__ = ["AbinitStdoutParser", "GsrParser"]

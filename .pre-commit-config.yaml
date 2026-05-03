@@ -30,3 +30,11 @@ repos:
         language: system
         stages: [commit-msg]
 
+  - repo: local
+    hooks:
+      - id: review-badge
+        name: Regenerate review-coverage badge
+        entry: bash -c 'if [[ "$(git symbolic-ref --short HEAD)" == "dark" ]]; then exit 0; fi; python dev/dark/badge.py'
+        language: system
+        pass_filenames: false
+        always_run: true

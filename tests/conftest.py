@@ -12,4 +12,4 @@ pytest_plugins = ["dough.testing.plugin"]
 @pytest.fixture
 def files_path():
     """Path to the fixture files used for the tests."""
-    return Path(__file__).parent / "outputs" / "fixtures"
+    return Path(__file__).parent / "files"
